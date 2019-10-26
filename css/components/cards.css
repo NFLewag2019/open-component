@@ -1,0 +1,57 @@
+.card-large a {
+  color: #61BE61;
+  position: absolute;
+  font-size: 48px;
+}
+.card-large {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+.img-center {
+  width: 826px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.fa-play-circle {
+  opacity: 0;
+}
+.card-large:hover .fa-play-circle {
+  transition: ease .3s;
+  opacity: 1;
+}
+.img-select {
+  width: 228px;
+  border-radius: 4px;
+}
+.fa-play-circle:hover {
+  transition: ease .1s;
+  opacity: 1;
+  color: #3C9E61;
+}
+.card-small a {
+  color: #61BE61;
+  position: absolute;
+  font-size: 28px;
+  margin: 0 auto;
+}
+.card-small {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-small:hover .fa-play-circle {
+  transition: ease .3s;
+  opacity: 1;
+}
